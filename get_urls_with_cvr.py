@@ -45,6 +45,9 @@ def fetch_and_save_xbrl_data(urls):
 # Main function
 def main():
     html = '<a href="https://datacvr.virk.dk/gateway/dokument/downloadDokumentForVirksomhed?dokumentId=amNsb3VkczovLzAzLzBlL2M4LzEzLzIyLzcxNzctNDM4Ni04NGYyLTgyODBmZjA3MDhhMA&amp;cvrNummer=39588072" target="_blank" rel="noopener" class="d-block" title="Download regnskab fra 02.01.2023 i format XBRL" data-v-b882a22c="" data-v-d15255b8=""><span data-v-b882a22c="">XBRL</span><!----></a>'
+    html = '<a href="https://datacvr.virk.dk/gateway/dokument/downloadDokumentForVirksomhed?dokumentId=amNsb3VkczovLzAzLzBlL2M4LzEzLzIyLzcxNzctNDM4Ni04NGYyLTgyODBmZjA3MDhhMA&amp;cvrNummer=82606211" target="_blank" rel="noopener" class="d-block" title="Download regnskab fra 02.01.2023 i format XBRL" data-v-b882a22c="" data-v-d15255b8=""><span data-v-b882a22c="">XBRL</span><!----></a>'
+    html = '<a href="https://datacvr.virk.dk/gateway/dokument/downloadDokumentForVirksomhed?dokumentId=amNsb3VkczovLzAzLzBlL2M4LzEzLzIyLzcxNzctNDM4Ni04NGYyLTgyODBmZjA3MDhhMA&amp;cvrNummer=59682016" target="_blank" rel="noopener" class="d-block" title="Download regnskab fra 02.01.2023 i format XBRL" data-v-b882a22c="" data-v-d15255b8=""><span data-v-b882a22c="">XBRL</span><!----></a>'
+    html = '<a href="https://datacvr.virk.dk/gateway/dokument/downloadDokumentForVirksomhed?dokumentId=amNsb3VkczovLzAzLzBlL2M4LzEzLzIyLzcxNzctNDM4Ni04NGYyLTgyODBmZjA3MDhhMA&amp;cvrNummer=44073994" target="_blank" rel="noopener" class="d-block" title="Download regnskab fra 02.01.2023 i format XBRL" data-v-b882a22c="" data-v-d15255b8=""><span data-v-b882a22c="">XBRL</span><!----></a>'
 
     # Fetch XBRL links from the HTML content
     xbrl_links = fetch_xbrl_links(html)
